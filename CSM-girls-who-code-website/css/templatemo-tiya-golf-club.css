@@ -141,6 +141,7 @@ strong {
 .section-padding {
   padding-top: 100px;
   padding-bottom: 100px;
+  background-color: #fff;
 }
 
 .section-overlay {
@@ -463,9 +464,7 @@ strong {
   color: var(--white-color);
 }
 
-.navbar .navbar-brand-image {
-  filter: brightness(0) invert(1);
-}
+
 
 .navbar-brand-image {
   width: 48px;
@@ -767,12 +766,21 @@ strong {
 .about-section {
   padding-bottom: 70px;
   position: relative;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
 }
 
 .member-block-image-wrap {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .member-block-image-wrap:hover .member-block-image {
@@ -1371,5 +1379,5 @@ strong {
 
 .about-the-club strong {
   font-weight: bold; /* Make strong text bold */
-  color: #0066cc; /* Example color for strong text */
+  color: #8a64b5; /* Example color for strong text */
 }
