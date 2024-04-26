@@ -1349,14 +1349,15 @@ strong {
   text-align: center;
 }
 
+/*this area is where the sizing of images needs to be fixed*/ 
 .about-section .col-lg-5 h4 {
   margin-bottom: 30px; /* Adjust margin bottom as needed */
-  max-width: 100%;
+  max-width: 500px;
 }
 
 .about-section .row {
-  display: flex;
-  justify-content: center ;
+  display: ;
+  justify-content: relative ;
 }
 
 .about-section .col-lg-5 {
