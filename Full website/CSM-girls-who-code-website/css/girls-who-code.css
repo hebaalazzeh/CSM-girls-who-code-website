@@ -476,13 +476,18 @@ strong {
   margin-left: 10px;
   position: relative;
   bottom: 5px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-brand-text small {
   display: block;
-  font-size: 10px;
+  font-size: 100px;
   line-height: 1;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -570,6 +575,18 @@ strong {
     margin-top: 0;
     pointer-events: auto;
   }
+  .navbar-brand {
+    font-size: 20px; /* Decrease font size for text next to logo */
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 16px; /* Adjust font size for nav links */
+  }
+  
+  .navbar .dropdown-menu .dropdown-item {
+    font-size: 18px; /* Increase font size for dropdown menu items */
+  }
+  
 }
 
 .navbar-toggler {
@@ -764,25 +781,39 @@ strong {
   ABOUT SECTOIN              
 -----------------------------------------*/
 .about-section {
-  padding-bottom: 70px;
+  padding-bottom: 100px;
   position: relative;
-  justify-content: center; /* Horizontally center the content */
-  align-items: center; /* Vertically center the content */
+  display: flex; /* Make the container a flex container */
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;  
 }
 
 .member-block-image-wrap {
-  border-radius: var(--border-radius-medium);
+  border-radius: 70%;
   position: relative;
   overflow: hidden;
   justify-content: center; /* Horizontally center the content */
   align-items: center;
-  width: 200px; /* Adjust the width to your desired size */
+  width: 250px; 
   height: 250px;
+}
+.membership-section {
+  width: 100%; 
+  align-items: center;
+  display: flex; /* Make the container a flex container */
+  justify-content: center; 
+  /* Ensure the section takes up the full width */
+}
+
+.member-block-image-wrap img {
+  width: 100%;
+  height: auto;
 }
 .row {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 }
 
 .member-block-image-wrap:hover .member-block-image {
@@ -812,11 +843,16 @@ strong {
 
 .member-block-info {
   padding: 10px;
+  text-align: center; 
+  display: flex;
+  
 }
 
 .member-block-info h4,
 .member-block-info p {
-  margin-bottom: 0;
+  margin-bottom: 5px;
+  text-align: center; 
+  
 }
 
 
@@ -828,6 +864,7 @@ strong {
   position: relative;
   overflow: hidden;
   padding: 30px 20px;
+  
   
 }
 
@@ -1155,6 +1192,15 @@ strong {
   margin-left: 15px;
 }
 
+@media (max-width: 767px) {
+  .custom-form button[type="submit"] {
+    font-size: 12px; /* Adjust font size for smaller screens */
+    padding: 10px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 5px; /* Decrease font size */
+    padding: 5px 10px; /* Adjust padding */
+  }
 
 /*---------------------------------------
   SOCIAL ICON               
