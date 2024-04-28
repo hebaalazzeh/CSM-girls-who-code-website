@@ -1,11 +1,3 @@
-/*
-
-TemplateMo 587 Tiya Golf Club
-
-https://templatemo.com/tm-587-tiya-golf-club
-
-*/
-
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
@@ -1201,7 +1193,7 @@ strong {
     font-size: 5px; /* Decrease font size */
     padding: 5px 10px; /* Adjust padding */
   }
-
+}
 /*---------------------------------------
   SOCIAL ICON               
 -----------------------------------------*/
@@ -1404,7 +1396,7 @@ strong {
 }
 
 .about-section .row {
-  display: ;
+  display:flex ;
   justify-content: relative ;
 }
 
